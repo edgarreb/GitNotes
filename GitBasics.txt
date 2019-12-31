@@ -1,0 +1,18 @@
+initializing: 
+
+There are two ways in which we can create a new git repository. We can either manouver to the directory that we would like to initialize (in our local machine), or we can clone an existing git repository. To create a new git repo we must use the $ git init command. 
+
+example (using Direc1 directory) 
+
+cd /Desktop/Direc1
+git init
+
+
+At this point we have created a new git repo. When we commit and later push our updates to a remote repo on Github we may not want to push (or "keep track of") certian files. As an example when we compile our C source code we don't want to push our executable file (a.out). To stop tracking files we can create a .gitignore file in which we include the name of files or folders that we wouldn't like to ignore. 
+
+ 
+
+
+Staging: 
+
+ 
