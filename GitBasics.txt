@@ -23,10 +23,21 @@ To remove a file that has already been staged we can use the $ git rm -- cached 
 
 Branching:
 
-To create a new branch we have to use the $ git branch <NameOfBranch> command. 
+- Creating a new branch
+	$ git branch <NameOfBranch>  
 
-Once our new branch is created we can check what branch we are currently on by using the $ git branch -a command. This will show us all the branches in our repo as well as tell us the branch that we are currently on. 
+- Tracking branch info
+	$ git branch -a 
+	This will show us all the branches in our repo as well as tell us the branch that we are currently on. 
 
-To change from one branch to another we have to use the $ git checkout <NameOfBranch> command.
+- Changing branches
+	$ git checkout <NameOfBranch> 
+
+- Deleting a branch
+	$ git branch -D <BranchName>
+	This command will delete a branch that has not yet been meregd back into origin.
+
+	$ git branch -d <BranchName>
+	This command will delete a branch that has already been merged back into origin. 
 
  
