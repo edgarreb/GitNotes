@@ -18,3 +18,15 @@ Staging:
 We use the $ git add command to stage files. 
 
 To remove a file that has already been staged we can use the $ git rm -- cached <file> command.
+
+
+
+Branching:
+
+To create a new branch we have to use the $ git branch <NameOfBranch> command. 
+
+Once our new branch is created we can check what branch we are currently on by using the $ git branch -a command. This will show us all the branches in our repo as well as tell us the branch that we are currently on. 
+
+To change from one branch to another we have to use the $ git checkout <NameOfBranch> command.
+
+ 
