@@ -24,7 +24,11 @@ To remove a file that has already been staged we can use the $ git rm -- cached 
 Branching:
 
 - Creating a new branch
-	$ git branch <NameOfBranch>  
+	$ git branch <BranchName>  
+
+- Creating and checking out a branch 
+	$ git checkout -b <BranchName>
+	This command will create a new branch and checkout (or change us to) the new branch.
 
 - Tracking branch info
 	$ git branch -a 
@@ -40,4 +44,10 @@ Branching:
 	$ git branch -d <BranchName>
 	This command will delete a branch that has already been merged back into origin. 
 
- 
+Merging:
+
+- Merging a branch 
+	$ git merge <BranchName>
+	(important) To merge a branch into another we have to be on the branch that we want to merge into.
+
+
