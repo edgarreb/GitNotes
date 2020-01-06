@@ -24,11 +24,33 @@ Staging:
 	$ git rm --cahced <Filename> 
 	This command will remove a file that has already been staged.
 
+
+
+
+
 Commit:
 
 - Commiting changes to the repo (with a message)
 	$ git commit -m 'message'
 	Making a commit in git is like hiting the "save button".
+
+- Checkout commit
+	$ git checkout <commitID>
+	This will checkout a particular commit (allow us to see the code from a prior point in history). Once we are done checking out the code we can go back to our most recent commit by checking out the master branch ($ git checkout master).	 
+
+- Revert Commit 
+
+- Reset Commit
+
+- Keeping track of commits 
+	$ git log 
+	This command will show us a list of commits made in the repo.
+	
+	$ git log --oneline
+	This will show a more condensed version of the commit history. 
+
+	Each commit in the commit history has a unique commit ID, this ID is used to go back (checkout/revert/reset) to a previous commit. 
+
 
 
 
