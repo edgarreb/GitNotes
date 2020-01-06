@@ -21,9 +21,20 @@ Staging:
 	$ git add .
 
 - Removing a file from the staging area
-	$ git rm -- cahced <Filename> 
+	$ git rm --cahced <Filename> 
 	This command will remove a file that has already been staged.
 
+Commit:
+
+- Commiting changes to the repo (with a message)
+	$ git commit -m 'message'
+	Making a commit in git is like hiting the "save button".
+
+
+
+
+
+Push/Pull:
 
 
 
