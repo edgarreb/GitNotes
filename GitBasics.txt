@@ -39,8 +39,15 @@ Commit:
 	This will checkout a particular commit (allow us to see the code from a prior point in history). Once we are done checking out the code we can go back to our most recent commit by checking out the master branch ($ git checkout master).	 
 
 - Revert Commit 
+	$ git revert <commitID>
+	This command will revert changes made from a certian commit and make a new commit (at the top of the commit history) with the changes undone. We casn still access the reverted commit but the changes made at this reverted commit will not be present at the most recent commit. 
 
 - Reset Commit
+	$ git reset <commitID>
+	This command will delete commits from the commit history. The files that were from commits coming after the reset commit will still be in our editor but will not be staged. 
+	
+	$ git reset <commitID> --hard
+	This command does the same thing as the reset commit above, however the files after the reset commit will no longer be in our text editor (or working directory). 
 
 - Keeping track of commits 
 	$ git log 
